@@ -1,0 +1,53 @@
+body{
+    background-color: grey;
+}
+.display{
+    width: 200px;
+    border: solid greenyellow 1px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-radius: 20px;
+  
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+
+    
+
+.row{
+    display: flex;
+
+}
+
+.button{
+   width: 50px;
+   height: 40px;
+   border: solid yellowgreen 1px;
+   border-radius: 20px;
+}
+
+.button:hover{
+    background-color: aqua;
+    color: brown;
+}
+
+.child{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    border: solid black 5px;
+}
+
+h4{
+    color: brown;
+    margin: auto;
+   
+}
